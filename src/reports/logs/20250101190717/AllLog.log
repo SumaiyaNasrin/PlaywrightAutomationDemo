@@ -1,0 +1,3 @@
+{"level":"info","message":"Execute step: Navigated to: \"https://www.saucedemo.com/\" successfully"}
+{"level":"info","message":"Execute step: typing text: \"standard_user\" into element: getByPlaceholder('Username')"}
+{"level":"info","message":"Execute step: typing text: \"secret_sauce\" into element: getByPlaceholder('Password')"}

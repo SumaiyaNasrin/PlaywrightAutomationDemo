@@ -1,0 +1,2 @@
+info: Execute step: Selected hilo from Sort dropdown {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Get price list of products {"timestamp":"2025-01-01 19:07:24"}

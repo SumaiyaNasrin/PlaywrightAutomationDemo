@@ -1,0 +1,5 @@
+info: Execute step: Navigated to: "https://www.saucedemo.com/" successfully {"timestamp":"2025-01-01 19:07:20"}
+info: Execute step: typing text: "standard_user" into element: getByPlaceholder('Username') {"timestamp":"2025-01-01 19:07:21"}
+info: Execute step: typing text: "secret_sauce" into element: getByPlaceholder('Password') {"timestamp":"2025-01-01 19:07:21"}
+info: Execute step: Selected za from Sort dropdown {"timestamp":"2025-01-01 19:07:21"}
+info: Execute step: Get product list {"timestamp":"2025-01-01 19:07:22"}

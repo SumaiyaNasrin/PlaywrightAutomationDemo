@@ -1,0 +1,22 @@
+{"level":"info","message":"Execute step: Navigated to: \"https://www.saucedemo.com/\" successfully"}
+{"level":"info","message":"Execute step: typing text: \"standard_user\" into element: getByPlaceholder('Username')"}
+{"level":"info","message":"Execute step: typing text: \"secret_sauce\" into element: getByPlaceholder('Password')"}
+{"level":"info","message":"Execute step: Selected za from Sort dropdown"}
+{"level":"info","message":"Execute step: Get product list"}
+{"level":"info","message":"Execute step: Selected hilo from Sort dropdown"}
+{"level":"info","message":"Execute step: Get price list of products"}
+{"level":"info","message":"Execute step: Clicked on: Add to Cart for product Sauce Labs Backpack"}
+{"level":"info","message":"Execute step: Clicked on: Add to Cart for product Sauce Labs Bolt T-Shirt"}
+{"level":"info","message":"Execute step: Clicked on: Add to Cart for product Sauce Labs Fleece Jacket"}
+{"level":"info","message":"Execute step: Clicked on: Cart button"}
+{"level":"info","message":"Execute step: \"locator('//span[normalize-space(text()) = \\'Your Cart\\']')\" Element is visible"}
+{"level":"info","message":"Execute step: Get product list"}
+{"level":"info","message":"Execute step: Clicked on: Checkout button"}
+{"level":"info","message":"Execute step: Enter first name value in input field"}
+{"level":"info","message":"Execute step: typing text: \"test\" into element: getByPlaceholder('First Name')"}
+{"level":"info","message":"Execute step: Enter last name value in input field"}
+{"level":"info","message":"Execute step: typing text: \"user\" into element: getByPlaceholder('Last Name')"}
+{"level":"info","message":"Execute step: Enter postal code value in input field"}
+{"level":"info","message":"Execute step: typing text: \"1219\" into element: getByPlaceholder('Zip/Postal Code')"}
+{"level":"info","message":"Execute step: Clicked on Continue button"}
+{"level":"info","message":"Execute step: Clicked on: Finish button"}

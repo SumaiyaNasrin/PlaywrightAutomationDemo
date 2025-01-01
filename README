@@ -1,0 +1,41 @@
+## Setup
+
+The framework uses Node.js and JavaScript as its primary languages. Ensure that your environment meets the following requirements:
+
+### Required Software
+
+1. Node.js (version: 20.x.x or up)
+2. Visual Studio Code (version: 1.85.x or up)
+3. Java (version: 21.x or up)
+
+### Required VS Code Extensions
+
+1. Playwright Test for VSCode
+2. Prettier - Code formatter
+3. GitLens
+4. ESLint
+
+## Installation Steps
+
+Follow these steps to set up the project:
+
+1. Clone the repository to your work directory.
+2. Open the repository in Visual Studio Code.
+3. Open the terminal in VS Code and run the following command: `npm install`
+4. After the required packages have been installed, run the following command: `npx playwright install`
+5. For installing Allure report tool, run the following command: `npm install --save-dev allure-playwright`
+6. For linking Winston logger, run the following command: `npm link winston`
+
+## Running Tests
+
+The framework provides scripts for running tests across different browser configurations. Here's how you can execute tests:
+
+- To run, execute the following command: `npm run e2e`
+
+## Reporting
+
+The framework uses the Allure reporting framework to generate comprehensive HTML reports.
+
+To generate the HTML reports, run the following command in the console: `npm run report`
+
+Once the reports are generated, you can view them by running the following command: `npm run show-report`

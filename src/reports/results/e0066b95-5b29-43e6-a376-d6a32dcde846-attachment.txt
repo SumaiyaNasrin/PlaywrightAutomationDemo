@@ -1,0 +1,15 @@
+info: Execute step: Clicked on: Add to Cart for product Sauce Labs Backpack {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on: Add to Cart for product Sauce Labs Bolt T-Shirt {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on: Add to Cart for product Sauce Labs Fleece Jacket {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on: Cart button {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: "locator('//span[normalize-space(text()) = \'Your Cart\']')" Element is visible {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Get product list {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on: Checkout button {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Enter first name value in input field {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: typing text: "test" into element: getByPlaceholder('First Name') {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Enter last name value in input field {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: typing text: "user" into element: getByPlaceholder('Last Name') {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Enter postal code value in input field {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: typing text: "1219" into element: getByPlaceholder('Zip/Postal Code') {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on Continue button {"timestamp":"2025-01-01 19:07:24"}
+info: Execute step: Clicked on: Finish button {"timestamp":"2025-01-01 19:07:24"}

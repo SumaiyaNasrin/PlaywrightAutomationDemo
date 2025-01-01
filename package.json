@@ -1,0 +1,31 @@
+{
+  "name": "automationplaywright",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework for Sauce Demo Web",
+  "main": "index.js",
+  "config": {
+    "testfolder": "src/reports/results"
+  },
+  "scripts": {
+    "test": "npx playwright test test.spec.js --headed",
+    "generate-report": "allure generate --single-file src/reports/results --clean -o src/reports/results/html",
+    "show-report": "allure open src/reports/results/html",
+    "copy-history": "node src/utils/copyTestReport.util.js",
+    "report":"npm run generate-report && npm run copy-history",
+    "e2e": "npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "fs-extra": "^11.2.0",
+    "winston": "^3.13.1"
+  }
+}
